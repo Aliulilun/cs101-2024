@@ -5,7 +5,6 @@ typedef struct employee
 char name[10];
 float salary;
 } employee_t;
-
 void emp_info(employee_t emp) {
 printf(" employee id = %d\n", emp.id);
 printf("employee name = %s\n", emp. name);
